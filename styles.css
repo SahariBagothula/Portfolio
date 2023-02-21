@@ -170,3 +170,19 @@ hr {
     padding-bottom: 6rem;
 }
 
+@media(max-width: 900px) {
+    body {
+        max-width: 95%;
+        width: 100%;
+    }
+    .list-item-inline {
+        display: inline;
+        padding: 0rem;
+    }
+    .container-center {
+        width: auto;
+    }
+    .link-primary {
+        display: block;
+    }
+}
